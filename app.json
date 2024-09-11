@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "FeedbackMob",
-    "slug": "FeedbackMob",
+    "name": "Feedback",
+    "slug": "Feedback",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon1.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon1.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.selvam_poomani.Feedback"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "11e819a4-205d-49bd-94bb-bfb2b5a138cc"
+      }
     }
   }
 }
